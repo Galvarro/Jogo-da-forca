@@ -21,7 +21,7 @@ while acerto != len(escolha) and erro != 6:
     print(mensagem)
     print(f'{formatação.cor("azul")}Você ja acertou: {formatação.cor("fim")}' + letras_acertadas)
     print(f'{formatação.cor("amarelo")}Você ja errou: {formatação.cor("fim")}' + letras_erradas)
-    letra = str(input('Digite a letra: ')).upper().strip()
+    letra = str(input('Digite a letra ;): ')).upper().strip()
     if letra in escolha:
         print(f'{formatação.cor("ciano")}Você acertou{formatação.cor("fim")}')
         sleep(1)
